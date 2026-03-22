@@ -1,0 +1,39 @@
+
+.headercontainer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
+}
+
+.headercontainer > h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.125rem;
+    margin-bottom: 0.125rem;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+}
+
+
+@media (max-width: 600px) {
+
+    .headercontainer{
+        display: flex;
+        align-items: center;
+    }
+    .headercontainer > h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media print{
+    .headercontainer{
+        display: none;
+    }   
+}

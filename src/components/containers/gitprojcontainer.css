@@ -1,0 +1,35 @@
+.git-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  width: min( 120rem, 100%);
+  background-color: var(--colorhighlight);
+  border-radius: 1.5rem;
+  padding: 2% 2%;
+}
+
+h1{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+h2{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    text-align: left;
+    width: 100%;
+    margin-left: 5%;
+}
+p{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+}
+@media (max-width: 768px) {
+    .git-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 1rem;
+    }
+}

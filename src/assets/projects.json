@@ -1,0 +1,14 @@
+{
+    "projekt":[
+        {
+            "name": "RestAPIEF",
+            "description": "En enkel REST API gjord med Entity Framework och C# med tanke på en code-first databas",
+            "link": "https://github.com/oscarc0der55/RestAPIEF"
+        },
+        {
+            "name": "NumbersGame",
+            "description": "Ett spel där man gissar på ett nummer mellan 1 och max nummer som ändras beroende på svårighetsgrad, gjord i C#",
+            "link": "https://github.com/oscarc0der55/NumbersGame"
+        }
+    ]
+}

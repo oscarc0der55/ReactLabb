@@ -1,0 +1,39 @@
+.portcards{
+    position: relative;
+    border-radius: 0.625rem;
+    padding: 6% 7%;
+    background-color: var(--colorcard);
+    max-width: 100%;
+    min-height: 20%;
+    text-align: center;
+}
+
+.portcards > h3{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+}
+
+.portcards > p{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    padding: 0.625rem;
+}
+
+
+.portcards > a{
+    font-weight: bold;
+    background-color: var(--colorhighlight);
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    text-decoration: none;
+
+}
+
+.portcards > a:hover {
+   background-color: var(--colorgrey);
+}
+
+.portcards > a:active {
+    background-color: var(--colorhighlight);
+}

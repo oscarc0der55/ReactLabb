@@ -1,0 +1,46 @@
+.middle{
+    width: 100%;
+}
+
+.cvmain{
+    margin: 0.5% 20%;
+    padding: 0.625rem;
+    border-radius: 5%;
+    background-color: var(--colorbacklight);
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cvmain > h2{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+
+
+.cvh3{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float: left;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+
+.cvp{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float: left;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+  
+}

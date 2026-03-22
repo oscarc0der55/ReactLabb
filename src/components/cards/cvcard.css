@@ -1,0 +1,38 @@
+.cvcard{
+    margin: 0.5% 20%;
+    padding: 0.625rem;
+    border-radius: 5%;
+    background-color: var(--colorbacklight);
+    max-width: 100%;
+    min-height: 20%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cvh3{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float: left;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+
+li {
+    font-family: var(--font-sans-serif);
+    color: var(--colorwhite);
+}
+
+li a{
+    color: var(--colorwhite);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--colorgrey);
+}

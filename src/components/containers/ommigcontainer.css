@@ -1,0 +1,64 @@
+.middle{
+    width: 100%;
+}
+
+.ommain{
+    margin: 0.5% 20%;
+    padding: 0.625rem;
+    border-radius: 5%;
+    background-color: var(--colorbacklight);
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ommain > h2{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+
+.omp{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    float: left;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+  
+}
+.omimg{
+    width: 75%;
+    height: 75%;
+}
+
+.ommain > label{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+}
+
+.ommain > input.key-not-pressed {
+    color: green;
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.ommain > input.key-pressed {
+    color: red;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.ommain > input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: var(--font-sans-serif);
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 8px;
+}

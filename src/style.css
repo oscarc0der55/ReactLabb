@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --colorblack: rgb(0, 0, 0);
+    --colorhighlight: rgba(30, 34, 34, 0.599);
+    --colorbacklight: rgba(30, 34, 34, 0.842);
+    --colorgrey: rgb(119, 136, 153);
+    --colorwhite: rgb(255, 255, 255);
+    --colorcard: rgb(19, 17, 17);
+    --font1: "Lora", serif;
+    --font-sans-serif: "Gill Sans Nova", sans-serif;
+}
+
+body{
+    background-image: url("./assets/black.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body.digitalrain{
+    background-image: url("./assets/digitalrain.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+.fontsize-larger {
+  font-size: 2rem;
+}
+.fontsize-large {
+  font-size: 1.2rem;
+}
+.fontsize-normal {
+  font-size: 1rem;
+}
+
+.flex-rows {
+  display:flex;
+  flex-direction: row;
+}
+.flex-cols {
+  display:flex;
+  flex-direction: column;
+}

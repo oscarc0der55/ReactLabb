@@ -1,0 +1,36 @@
+.changebackgroundbtn.default,
+.changebackgroundbtn.digitalrain {
+    background-color: var(--colorhighlight);
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border: none;
+    cursor: pointer;
+    padding: 0.625rem 1rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    min-width: 8.725rem;
+    min-height: 2.625rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.changebackgroundbtn.default:hover,
+.changebackgroundbtn.digitalrain:hover {
+   background-color: var(--colorgrey);
+   transform: scale(1.05);
+}
+
+.changebackgroundbtn:active {
+   transform: scale(0.98);
+}
+
+button#changebgbtn {
+    display: inline-block;
+}
+
+button {
+    background-color: var(--colorhighlight);
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    max-width: 100%;
+    float: center;
+}
